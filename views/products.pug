@@ -1,0 +1,17 @@
+extends ./layouts/master
+
+
+block content  
+    
+    table
+     thaed
+        tr
+            th Name
+            th Price
+     tbody 
+     each product in products
+        tr 
+            td=product.Name 
+            td=product.Price
+            
+        

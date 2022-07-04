@@ -1,0 +1,33 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+a {
+  color: white;
+}
+
+h1 {
+  //background-color: darkslategrey;
+  color: black;
+}
+
+#topmenu >li{
+  display: inline;
+  padding: 20px;
+}
+
+#mainname{
+  display: inline;
+  color: white;
+}
+
+.navbar{
+  background-color: darkslategrey;
+}
+
+.footer{
+  justify-content: center;
+  display: inline;
+}
